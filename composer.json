@@ -1,8 +1,8 @@
 {
     "name": "yomut/wx-biz-msg-crypt",
-    "description": "这是一个微信消息加密\b的改版。",
+    "description": "这是一个微信消息加密的改版。",
     "type": "library",
-    "license": "mit",
+    "license": "MIT",
     "authors": [
         {
             "name": "yomut",
@@ -10,5 +10,12 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php":">=7.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "WxBizMsgCrypt\\":"src/"
+        }
+    }
 }
