@@ -6,11 +6,7 @@
  * @copyright Copyright (c) 1998-2014 Tencent Inc.
  */
 
-//
-//include_once "sha1.php";
-//include_once "xmlparse.php";
-//include_once "pkcs7Encoder.php";
-//include_once "errorCode.php";
+
 namespace WxBizMsgCrypt;
 
 /**
